@@ -28,7 +28,6 @@ function linkall() {
     pushd ~/.files &> /dev/null
 
     for file in .gitconfig \
-                .gitflow_export \
                 .gitignore_global \
                 .profile; do
         linkit ${file} ${file}
