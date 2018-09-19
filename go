@@ -2,8 +2,8 @@
 
 function cloneRepo() {
     if [ ! -d ~/.files/ ]; then
-        echo "cloning https://github.com/aaronzirbes/dot-files.git to ~/.files"
-        git clone https://github.com/aaronzirbes/dot-files.git ~/.files
+        echo "cloning https://github.com/theokanning/dot-files.git to ~/.files"
+        git clone https://github.com/theokanning/dot-files.git ~/.files
     else
         echo "~/.files/ already exists. skipping clone."
     fi
