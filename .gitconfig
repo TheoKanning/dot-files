@@ -1,6 +1,6 @@
 [user]
     name = Theo Kanning
-    email = theo.kanning@gmail.com
+    email = theokanning@gmail.com
 [core]
     excludesfile = ~/.gitignore_global
     editor = vim
@@ -24,7 +24,7 @@
     co = checkout
     cob = checkout -b
     cm = !git add --all && git commit -m
-    cma = git commit --amend -m
+    cma = commit --amend -m
     bd = branch -d
     pu = push origin -u
     pf = push -f
