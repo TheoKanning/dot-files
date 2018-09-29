@@ -17,8 +17,8 @@ function linkit() {
         echo "Linking '${source_file}' to '${dest_file}'..."
         ln -s ~/.files/${source_file} ~/${dest_file}
     else
-        echo -e -n "${source_file} already exists\n\t"
-        ls -l ~/${source_file}
+        echo -e -n "${dest_file} already exists\n\t"
+        ls -l ~/${dest_file}
     fi
 
 }
