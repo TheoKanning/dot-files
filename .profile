@@ -29,3 +29,7 @@ alias gw='./gradlew'
 function g-findword() {
     grep --include '*.java' --include '*.groovy' --include '*.gsp' --include '*.gradle' -rE "\<${1}\>" .
 }
+
+# ROS
+alias cm='catkin_make && source devel/setup.bash'
+source /opt/ros/kinetic/setup.bash 2> /dev/null
