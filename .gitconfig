@@ -24,7 +24,7 @@
     co = checkout
     cob = checkout -b
     cm = !git add --all && git commit -m
-    cma = commit --amend -m
+    cma = commit --amend
     bd = branch -d
     pu = push origin -u
     pf = push -f
