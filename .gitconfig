@@ -14,8 +14,6 @@
     browser = macosx
 [browser "macosx"]
     cmd = open
-[credential]
-    helper = osxkeychain
 [push]
     default = simple
 [alias]
