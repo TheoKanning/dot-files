@@ -27,7 +27,8 @@
     pu = push origin -u
     pf = push -f
     rum = pull --rebase upstream master
-    fb = !git checkout master && git pull && git branch -d
+    rom = pull --rebase origin master
+    fin = !git checkout master && git pull && git branch -d
 [difftool]
     prompt = false
 [filter "media"]
