@@ -17,18 +17,20 @@
 [push]
     default = simple
 [alias]
-    s = status
     b = branch
+    bd = branch -d
     co = checkout
     cob = checkout -b
     cm = !git add --all && git commit -m
     cma = commit --all --amend
-    bd = branch -d
+    fin = !git checkout main && git pull && git branch -d
+    mtm = !git checkout master && git fetch && git checkout -b main && git branch -u origin/main && git branch -d master
+    mtm-fork = !git checkout master && git fetch && git checkout -b main && git branch -u upstream/main && git branch -d master
     pu = push origin -u
     pf = push -f
-    rum = pull --rebase upstream master
-    rom = pull --rebase origin master
-    fin = !git checkout master && git pull && git branch -d
+    rom = pull --rebase origin main
+    rum = pull --rebase upstream main
+    s = status
 [difftool]
     prompt = false
 [filter "media"]
